@@ -112,15 +112,28 @@ a:active {
 }
 
 .portfolioContent{
+    /* height: 250px; */
+    /* width: 350px; */
     border-width: 10px;
     padding: 25px;
-    margin: 25px 25px 25px 25px;
-    /* margin-bottom: 25px; */
-    display: inline;
+    margin: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
 }
 
 .labelBanner{
     position: absolute;
     top: 50px;
     width: 100%;
+}
+
+@media only screen and (max-with: 1154px){
+
+    .portfolioContent{
+        margin: auto;
+        display: inline-block;
+        max-width: 500px;
+
+    };
+
 }
