@@ -131,7 +131,17 @@ a:active {
     background-color: #4aaaa5;
 }
 
-@media only screen and (max-with: 1154px){
+#contentSec{
+    margin-bottom: 250px;
+}
+
+.contentPic{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}
+
+@media  screen and (max-with: 1154px){
 
     .portfolioContent{
         margin: auto;
